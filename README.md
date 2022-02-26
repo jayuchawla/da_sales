@@ -1,5 +1,5 @@
 # da_sales
-### Project Title
+## Project Title
 #### Analysing Sales for AtliQ Hardware
 
 ## Problem Statement
@@ -23,6 +23,6 @@
     -   IT
 8.  End Result: An automated dashboard providing quick & latest insights in order to support data driven decision making.
 9.  Success Criteria: 
-    a. Dashboards uncovering sales order insights with latest available data.
-    b. Sales team able to take better decisions & prove 10% cost savings of total spends.
-    c. Reduce data gatering for Sales analysts in order to save 20% of business time and reinvest it in value added activity. 
+    -   Dashboards uncovering sales order insights with latest available data.
+    -   Sales team able to take better decisions & prove 10% cost savings of total spends.
+    -   Reduce data gatering for Sales analysts in order to save 20% of business time and reinvest it in value added activity. 
