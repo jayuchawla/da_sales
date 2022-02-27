@@ -21,8 +21,23 @@
     -   Customer Service Team
     -   Data & Analytics Team
     -   IT
-8.  End Result: An automated dashboard providing quick & latest insights in order to support data driven decision making.
-9.  Success Criteria: 
+3.  End Result: An automated dashboard providing quick & latest insights in order to support data driven decision making.
+4.  Success Criteria: 
     -   Dashboards uncovering sales order insights with latest available data.
     -   Sales team able to take better decisions & prove 10% cost savings of total spends.
     -   Reduce data gatering for Sales analysts in order to save 20% of business time and reinvest it in value added activity. 
+
+#### Data Discovery
+-   The regional sales data (aggregated using sales systems) is stored in database instance (OLTP, mysql) and is owned by IT Team.
+-   It is the job of the data and analytics team to reach out to IT team and ask them for data.
+
+#### _Tip_:
+-   Heavy and complex querying an OLTP instance may affect its performance.
+-   Hence data warehouses are built (OLAP).
+-   Data Engineers are responsible for handling OLAP(s).
+-   ETL: the process of reformatting OLTP data in a way that it is best for performing analytical queries.
+-   Some ETL tools:
+    -   Apache Nifi
+    -   Informatica
+    -   Talend
+    -   Python (pandas)
