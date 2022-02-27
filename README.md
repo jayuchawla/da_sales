@@ -58,5 +58,15 @@
     -   Only allow those transactions which have sales_amount 'greater than equal to' 1   
     -   It is found that records with currency='INR\r' >> currency='INR', consider records which have currency as INR\r and USD\r (each record with currency='INR' has a duplicate entry with currency='INR\r' vice versa not true though, same applies for USD\r and USD)
     -   Normalize sales amount to INR (multiply normalize factor by sales_amount)
+
+## Building Dashboard (PowerBI)
+-   Card visual for Revenue and Sales Qty
+-   List visual for selecting Year
+-   List visual for selecting Month
+-   Line chart visual for Revenue trend
+-   Stacked Bar chart visual for Revenue by market region
+-   Stacked Bar chart visual for Sale quantity by market region
+-   Stacked Bar chart visual for Top products by Revenue
+-   Stacked Bar chart visual for Top customers by Products
 ## Credits
 -   Data Dump: https://github.com/codebasics/DataAnalysisProjects/blob/master/1_SalesInsights/db_dump.sql
