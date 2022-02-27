@@ -48,9 +48,15 @@
 -   Check for interesting aggreagates (sum, avg, count) with and without joining tables. 
 
 ## Data Cleaning & ETL
+-   A good observation is that there are duplicate rows in transactions table with difference in currency values though (INR, INR\r and USD, USD\r), a query to identify this is:
+    - select sales.transactions.customer_code, sales.transactions.market_code, sales.transactions.order_date, sales.transactions.product_code, sales.transactions.sales_amount, sales.transactions.sales_qty, count(*) from sales.transactions group by sales.transactions.customer_code, sales.transactions.market_code, sales.transactions.order_date, sales.transactions.product_code, sales.transactions.sales_amount, sales.transactions.sales_qty having count(*) > 1;
 -   Load data in PowerBI
 -   Extracted Schema diagram:
     ![star_schema](https://user-images.githubusercontent.com/35540277/155880019-8a48a8d1-6174-4acf-8ce5-166b7c3c32fc.png)
-
+-   Clean & Transform Data:
+    -   Zone 'not equal' to blank
+    -   Only allow those transactions which have sales_amount 'greater than equal to' 1   
+    -   It is found that records with currency='INR\r' >> currency='INR', consider records which have currency as INR\r and USD\r (each record with currency='INR' has a duplicate entry with currency='INR\r' vice versa not true though, same applies for USD\r and USD)
+    -   Normalize sales amount to INR (multiply normalize factor by sales_amount)
 ## Credits
 -   Data Dump: https://github.com/codebasics/DataAnalysisProjects/blob/master/1_SalesInsights/db_dump.sql
