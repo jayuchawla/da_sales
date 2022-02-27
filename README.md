@@ -41,3 +41,5 @@
     -   Informatica
     -   Talend
     -   Python (pandas)
+## Credits
+-   Data Dump: https://github.com/codebasics/DataAnalysisProjects/blob/master/1_SalesInsights/db_dump.sql
