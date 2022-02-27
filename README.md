@@ -47,5 +47,10 @@
 -   Look out for anamolies or values of concern (for e.g. few transacations in our analysis are also done in USD).
 -   Check for interesting aggreagates (sum, avg, count) with and without joining tables. 
 
+## Data Cleaning & ETL
+-   Load data in PowerBI
+-   Extracted Schema diagram:
+    ![star_schema](https://user-images.githubusercontent.com/35540277/155880019-8a48a8d1-6174-4acf-8ce5-166b7c3c32fc.png)
+
 ## Credits
 -   Data Dump: https://github.com/codebasics/DataAnalysisProjects/blob/master/1_SalesInsights/db_dump.sql
