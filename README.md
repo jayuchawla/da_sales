@@ -41,5 +41,11 @@
     -   Informatica
     -   Talend
     -   Python (pandas)
+
+## SQL Analysis
+-   Analyse basic structure of each table.
+-   Look out for anamolies or values of concern (for e.g. few transacations in our analysis are also done in USD).
+-   Check for interesting aggreagates (sum, avg, count) with and without joining tables. 
+
 ## Credits
 -   Data Dump: https://github.com/codebasics/DataAnalysisProjects/blob/master/1_SalesInsights/db_dump.sql
