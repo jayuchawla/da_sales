@@ -68,5 +68,7 @@
 -   Stacked Bar chart visual for Sale quantity by market region
 -   Stacked Bar chart visual for Top products by Revenue
 -   Stacked Bar chart visual for Top customers by Products
+-   ![report](https://user-images.githubusercontent.com/35540277/155890884-c7e5df4d-09fe-48a0-8527-c59e2d480cd4.png)
+
 ## Credits
 -   Data Dump: https://github.com/codebasics/DataAnalysisProjects/blob/master/1_SalesInsights/db_dump.sql
