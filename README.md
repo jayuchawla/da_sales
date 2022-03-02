@@ -72,6 +72,25 @@
 
 ## Feedback
 -   Bug: evaluation of revenue considers sales_amount, it should rather have considered normalized_sales_amount
+-   Include a visual for overall profit margin
+-   Include a visual for profit margin by markets
+-   Just profit percentage does not give a clear picture, have a visual for contribution percentage to total profit margin by markets
+-   A table with total revenue, revenue contribution %, profit margin contribution %, profit margin % _instead of a stacked chart of top 5 cutomers by reveue_.
+-   Have a Customer Type distribution by Revenue using pie-chart.
+-   Have a dynamic Performance Insights.
+    -   Have bar chart for Revenue by zone, Revenue Contribution % by zone
+
+
+## Extra Inferences from post plotting Feedback visuals
+-   Inferring from Profit % Mesaure: _Delhi though gets you higher revenue values, but Bhuvaneshwar tops the list for profit percentage for the year 2020._
+-   Inferring from Profit Margin Contribution Percentage Measure: _Mumbai is the highest contributor to overall profit margin for year 2020, although Delhi region has the highest revenue for the same year._
+-   Inferring from table visual: _Though Electricalsara Stores provides you with a profit margin% of 0.37%, but the profit margin contribution in overall profit margin is quite high (11.92%) (this is due to high sales volume made to Electricalsara Stores, if they give you loads of orders which will raise their profit margin contribution you give them loads of discount hence low profit margin%)._
+-   Lucknow has negative profit %, clicking on it then referring the table will allow you to view stores within Lucknow, there is only one named as Insight and hence sales director can decide to not continue business with this store or negotiate the sell value or increase the sales volume.
+-   Inferring from Customer Type distribution by Revenue pie-chart: _High revenue is generated from Brick & Mortar cutomer type as compared to E-Commerce._
+-   Inferring from Revenue by zone, Revenue Contribution % by zone: 
+    -   _North zone contributes to highest revenue._
+    -   _Though South Zone is the least contributor to Revenue Contribution % (4.61%), but due to Surge Stores' high(inferring from table) Profit Margin Contribution % (11.95%) the metric value soars high for South zone too (18.51%). In simple terms: The biggest reason business is still being continued in South Zone is Surge Stores!!_
+-   
 
 ## Credits
 -   Data Dump: https://github.com/codebasics/DataAnalysisProjects/blob/master/1_SalesInsights/db_dump.sql
