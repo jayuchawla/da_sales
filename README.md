@@ -79,7 +79,7 @@
 -   Have a Customer Type distribution by Revenue using pie-chart.
 -   Have a dynamic Performance Insights.
     -   Have bar chart for Revenue by zone, Revenue Contribution % by zone
-
+-   Have a dynamic target Profit % visual which helps to manipulate target Profit margin % and accordingly highlight Profit margin % chart bars with different color which don't satisfy target value.
 
 ## Extra Inferences from post plotting Feedback visuals
 -   Inferring from Profit % Mesaure: _Delhi though gets you higher revenue values, but Bhuvaneshwar tops the list for profit percentage for the year 2020._
@@ -90,7 +90,8 @@
 -   Inferring from Revenue by zone, Revenue Contribution % by zone: 
     -   _North zone contributes to highest revenue._
     -   _Though South Zone is the least contributor to Revenue Contribution % (4.61%), but due to Surge Stores' high(inferring from table) Profit Margin Contribution % (11.95%) the metric value soars high for South zone too (18.51%). In simple terms: The biggest reason business is still being continued in South Zone is Surge Stores!!_
--   
+-   Inferring from setting up a target Profit margin of 2%:
+    -   Bhopal, Surat, Delhi NCR, Kanpur and Lucknow do not satisfy this target, on further investigation Profit Margin % for _Epic Stores (Bhopal)_ is too low (~-5%), and is major reason for skewing performance for entire Bhopal market, same reason is valid for _Control_ and _Zone_ _(Kanpur)_. Business can be discontinued with these stores.   
 
 ## Credits
 -   Data Dump: https://github.com/codebasics/DataAnalysisProjects/blob/master/1_SalesInsights/db_dump.sql
